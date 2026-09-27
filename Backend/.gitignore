@@ -1,0 +1,20 @@
+# Папки сборки
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# База данных SQLite (создаётся заново через миграции)
+*.db
+*.db-shm
+*.db-wal
+
+# NuGet
+*.nupkg
+packages/
+
+# Логи
+*.log
